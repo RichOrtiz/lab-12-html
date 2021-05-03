@@ -1,0 +1,19 @@
+﻿p{
+    color: red;/*Paragaph text red*/
+    font-size: 12px;
+    text-decoration: line-through;
+}
+h1{
+    color: #00A36C;/*headers jade color*/
+    text-transform: uppercase;
+}
+h1,h2{
+    background-color: #000000;/*background is black for headers*/
+}
+h2{
+    color: #00A36C;/*headers jade color*/
+    text-decoration: underline;
+}
+* {
+    font-family:sans-serif; /*Targets all elements to change to sans serif, recommended for headers*/
+}
