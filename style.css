@@ -6,6 +6,11 @@
 h1{
     color: #00A36C;/*headers jade color*/
     text-transform: uppercase;
+    margin: 20px;
+    padding: 40px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: red;
 }
 h1,h2{
     background-color: #000000;/*background is black for headers*/
@@ -16,4 +21,13 @@ h2{
 }
 * {
     font-family:sans-serif; /*Targets all elements to change to sans serif, recommended for headers*/
+}
+/*ID selectors: border and solid black*/
+#intro {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+.spotlight{
+    background-color: #FEFE22;
 }
